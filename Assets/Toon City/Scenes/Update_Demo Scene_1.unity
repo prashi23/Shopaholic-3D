@@ -4033,7 +4033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000012690052966, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
       propertyPath: randomSeed
-      value: 1695662312
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
@@ -11474,7 +11474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483640130}
   m_LocalRotation: {x: 0.67394507, y: 0.029855413, z: -0.5759076, w: 0.46177623}
-  m_LocalPosition: {x: -15.7, y: 10.2, z: 11}
+  m_LocalPosition: {x: -15.7, y: 8.56, z: 11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16468,7 +16468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000012690052966, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
       propertyPath: randomSeed
-      value: 1695662312
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
@@ -23274,7 +23274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000012690052966, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
       propertyPath: randomSeed
-      value: -1417514367
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
@@ -23828,7 +23828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000012690052966, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
       propertyPath: randomSeed
-      value: -1027700643
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
@@ -25843,6 +25843,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d99e2310e7577d04c8befcbfcb1e806c, type: 2}
+    - target: {fileID: 7478225697108807222, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478225697108807222, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7478225697115775088, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -25853,7 +25861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7478225697115775088, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.103
       objectReference: {fileID: 0}
     - target: {fileID: 7478225697115775088, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25898,20 +25906,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7478225697116208144, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
   m_PrefabInstance: {fileID: 1172479458}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1172479460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172479459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21c0698acc7732e478e467153b3f7019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationRate: 360
-  moveSpeed: 0.05
 --- !u!54 &1172479461
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25935,7 +25929,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172479459}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b30cd326d4f01d04f840273c3de2ddc4, type: 3}
   m_Name: 
@@ -25953,7 +25947,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 0
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 1
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -30573,7 +30567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198000012690052966, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
       propertyPath: randomSeed
-      value: -1403151924
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439a783f1b2045f58a42071f088da64, type: 3}
