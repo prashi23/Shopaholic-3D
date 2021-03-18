@@ -248,7 +248,6 @@ GameObject:
   - component: {fileID: 2269165}
   - component: {fileID: 2269164}
   - component: {fileID: 2269163}
-  - component: {fileID: 2269162}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -276,20 +275,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2269162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2269160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bf4427faf17ff5448a08ba128e61d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  FlowerShop: {fileID: 0}
 --- !u!222 &2269163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5048,7 +5033,6 @@ GameObject:
   - component: {fileID: 129343010}
   - component: {fileID: 129343009}
   - component: {fileID: 129343008}
-  - component: {fileID: 129343007}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -5076,20 +5060,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &129343007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129343005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0e1d45526172f4e923b6203e8517c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  CandyShop: {fileID: 0}
 --- !u!222 &129343008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10971,7 +10941,6 @@ GameObject:
   - component: {fileID: 309619264}
   - component: {fileID: 309619263}
   - component: {fileID: 309619262}
-  - component: {fileID: 309619261}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -10999,20 +10968,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &309619261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309619259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0e1d45526172f4e923b6203e8517c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  CandyShop: {fileID: 0}
 --- !u!222 &309619262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36815,7 +36770,6 @@ GameObject:
   - component: {fileID: 1059134737}
   - component: {fileID: 1059134736}
   - component: {fileID: 1059134735}
-  - component: {fileID: 1059134734}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -36843,20 +36797,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1059134734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059134732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0e1d45526172f4e923b6203e8517c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  CandyShop: {fileID: 0}
 --- !u!222 &1059134735
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46996,7 +46936,6 @@ GameObject:
   - component: {fileID: 1337586874}
   - component: {fileID: 1337586873}
   - component: {fileID: 1337586872}
-  - component: {fileID: 1337586871}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -47024,20 +46963,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1337586871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337586869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0e1d45526172f4e923b6203e8517c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  CandyShop: {fileID: 0}
 --- !u!222 &1337586872
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47869,7 +47794,6 @@ GameObject:
   - component: {fileID: 1361307085}
   - component: {fileID: 1361307084}
   - component: {fileID: 1361307083}
-  - component: {fileID: 1361307082}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -47897,20 +47821,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1361307082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361307080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bf4427faf17ff5448a08ba128e61d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  FlowerShop: {fileID: 0}
 --- !u!222 &1361307083
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57110,7 +57020,6 @@ GameObject:
   - component: {fileID: 1613134760}
   - component: {fileID: 1613134759}
   - component: {fileID: 1613134758}
-  - component: {fileID: 1613134757}
   m_Layer: 0
   m_Name: Board
   m_TagString: Clickable
@@ -57138,20 +57047,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.55, y: 0.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1613134757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613134755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0e1d45526172f4e923b6203e8517c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openShop: {fileID: 0}
-  CandyShop: {fileID: 0}
 --- !u!222 &1613134758
 CanvasRenderer:
   m_ObjectHideFlags: 0
