@@ -3,27 +3,6 @@
  ![unknown (1)](https://user-images.githubusercontent.com/54631569/111801541-11ae5400-88f3-11eb-929c-18b20b64d640.png)
  
  demo link: https://youtu.be/aMW8tXUXEwo
-
-
-## About Us
-
-Hello there 👋! We are proud members of Pod 2.1.3 also know as Goofy-Goofy 😃. We are tech-explorers 🚀, highly motivated to learn new things and build cool and random stuff 💥.
-
-#### Developers:
- 
- ⭐ [Sakshi Gupta](https://github.com/sakshigupta265)
-  
-  ![54631569](https://user-images.githubusercontent.com/54631569/109351893-004bcc00-78a0-11eb-973d-b89de99a9fa2.jpg)
- 
- ⭐ [Samuel Alexander](https://www.linkedin.com/in/abiokorigho-samuel-371b08149/)
- 
- ![IMG_20190108_165704](https://user-images.githubusercontent.com/54631569/111793020-d871e600-88ea-11eb-8732-048571cee226.jpg)
-
-  
- ⭐ [Saksham Mittal](https://www.linkedin.com/in/sakshammittal/)
- 
- ![1603172063912](https://user-images.githubusercontent.com/54631569/111796809-8d59d200-88ee-11eb-9e16-246204838da7.jpg)
-
  
  
  ## Inspiration
@@ -133,3 +112,23 @@ It has three options:
  
  ## Report a Bug 🐞
  Refer to [Contribution.md]()
+ 
+ ## About Us
+
+Hello there 👋! We are proud members of Pod 2.1.3 also know as Goofy-Goofy 😃. We are tech-explorers 🚀, highly motivated to learn new things and build cool and random stuff 💥.
+
+#### Developers:
+ 
+ ⭐ [Sakshi Gupta](https://github.com/sakshigupta265)
+  
+  ![54631569](https://user-images.githubusercontent.com/54631569/109351893-004bcc00-78a0-11eb-973d-b89de99a9fa2.jpg)
+ 
+ ⭐ [Samuel Alexander](https://www.linkedin.com/in/abiokorigho-samuel-371b08149/)
+ 
+ ![IMG_20190108_165704](https://user-images.githubusercontent.com/54631569/111793020-d871e600-88ea-11eb-8732-048571cee226.jpg)
+
+  
+ ⭐ [Saksham Mittal](https://www.linkedin.com/in/sakshammittal/)
+ 
+ ![1603172063912](https://user-images.githubusercontent.com/54631569/111796809-8d59d200-88ee-11eb-9e16-246204838da7.jpg)
+
