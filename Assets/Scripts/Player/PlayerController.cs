@@ -85,6 +85,10 @@ public class PlayerController : MonoBehaviour {
             itemBuyCondition = true;
             currBuyItem = other.gameObject.GetComponent<TriggerController>().GetItem();
         }
+        if(other.gameObject.CompareTag("Finish")) {
+            GameManager.instance.GameWin();
+            Debug.Log("Game Win");
+        }
     }
 
     private void OnTriggerExit(Collider other) {
@@ -96,8 +100,18 @@ public class PlayerController : MonoBehaviour {
 
     private void BuyItem() {
         if(Input.GetKeyDown(KeyCode.E) && itemBuyCondition) {
+            if ((GameManager.instance.GetPlayerMoney - currBuyItem.itemPrice) < 0) {
+                itemAddedMessage.text = "Insufficient Balance";
+                itemAddedMessage.color = Color.red;
+                itemAddedMessage.CrossFadeAlpha(1.0f, 0f, false);
+                itemAddedMessage.CrossFadeAlpha(0.0f, 2f, false);
+                return;
+            }
             Debug.Log("Item Buy");
             playerInventory.AddItem(currBuyItem);
+            AudioManager.instance.PlayPickSound();
+            itemAddedMessage.color = new Color(0f, 0.9716981f, 0.2934147f);
+            itemAddedMessage.text = "Item Added To Inventory";
             itemAddedMessage.CrossFadeAlpha(1.0f, 0f, false);
             itemAddedMessage.CrossFadeAlpha(0.0f, 2f, false);
 
@@ -118,4 +132,6 @@ public class PlayerController : MonoBehaviour {
                 
         }
     }
+
+    
 }

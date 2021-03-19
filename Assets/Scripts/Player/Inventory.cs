@@ -10,9 +10,15 @@ public class Inventory {
 
     public Inventory() {
         itemList = new List<Item>();
+        
     }
 
     public void AddItem(Item item) {
+        if (GameManager.instance.objItems.Count == 0) {
+            GameManager.instance.GameWinCondition();
+        }
+        GameManager.instance.objItems.Remove(item.itemType);
+        GameManager.instance.DeductMoney(item.itemPrice);
         bool isAlreadyInventory = false;
         foreach(Item inventoryItem in itemList) {
             if(inventoryItem.itemType == item.itemType) {
@@ -24,7 +30,12 @@ public class Inventory {
         if (!isAlreadyInventory) {
             itemList.Add(item);
         }
+
+        if (GameManager.instance.objItems.Count == 0) {
+            GameManager.instance.GameWinCondition();
+        }
         OnItemListChanged?.Invoke(this, EventArgs.Empty);
+
 
     }
 

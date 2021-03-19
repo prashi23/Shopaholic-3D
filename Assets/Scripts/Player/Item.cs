@@ -22,7 +22,7 @@ public class Item {
 
     public ItemType itemType;
     public int amount;
-
+    public float itemPrice;
 
     public Sprite GetSprite() {
         switch(itemType) {

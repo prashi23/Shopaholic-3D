@@ -7,6 +7,7 @@ public class TriggerController : MonoBehaviour {
 
     private GameObject canvas;
     public Item.ItemType itemType = Item.ItemType.Cereal;
+    public float itemPrice = 0f;
     [SerializeField]
     private TextMeshProUGUI titleText;
 
@@ -25,7 +26,7 @@ public class TriggerController : MonoBehaviour {
     }
 
     public Item GetItem() {
-        return new Item { itemType = this.itemType, amount = 1 };
+        return new Item { itemType = this.itemType, amount = 1, itemPrice = this.itemPrice };
     }
 
     
