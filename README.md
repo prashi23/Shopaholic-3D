@@ -26,7 +26,7 @@ Hello there 👋! We are proud members of Pod 2.1.3 also know as Goofy-Goofy �
  
  ## Inspiration
  
-Ever thought of **going** shopping but virtually? There are alot of shopping games out there but all are mostly in 2D. So, I along with my team came up with cool idea of creating a 3D shopping complex. You can control your GameObject and make it go anywhere, any shop, any building and can moon walk on roads blindly without the fear of getting hit xD (P.S: only in the game)
+Ever thought of **going** shopping but virtually? There are a lot of shopping games out there but all are mostly in 2D. So, I along with my team came up with a cool idea of creating a 3D shopping complex. You can control your GameObject and make it go anywhere, any shop, any building, and can moonwalk on roads blindly without the fear of getting hit xD (P.S: only in the game)
  
  
  ## What it does?
@@ -55,13 +55,13 @@ It has three options:
  ![image](https://user-images.githubusercontent.com/54631569/111794928-c002cb00-88ec-11eb-8eda-02dc30905112.png)
 
 
- - Instructions: If you click this button you will land up on page on which you can select which map's instructions you want to look on. (For example: The instructions for map 1 is listed below)
+ - Instructions: If you click this button you will land upon a page on which you can select which map's instructions you want to look on. (For example, The instructions for map 1 is listed below)
  
  ![image](https://user-images.githubusercontent.com/54631569/111795560-53d49700-88ed-11eb-85fc-47a5e697007f.png)
 
  ![image](https://user-images.githubusercontent.com/54631569/111795720-78307380-88ed-11eb-80d4-c4a7f5bcab01.png)
 
-###### You can use the '<' buttonUI on the screen and 'BACK' button to move back to the previous scene.
+###### You can use the '<' button on the screen and the 'BACK' button to move back to the previous scene.
 
 
 **Game Mode**: If you hit the play button you will land on a new menu where you can select between the two menus. 
@@ -70,7 +70,7 @@ It has three options:
 
 
 
-1) *Free Mode*: In the free mode you can freely move around the city and get into shop of your choice and buy any random stuff (until the the timer and your dollar bills last 🤣).
+1) *Free Mode*: In the free mode, you can freely move around the city and get into the shop of your choice and buy any random stuff (until the timer and your dollar bills last 🤣).
 
 ![image](https://user-images.githubusercontent.com/54631569/111798530-2a693a80-88f0-11eb-9340-148ae7e27f09.png)
 
@@ -85,21 +85,21 @@ It has three options:
  
 ![move_keys](https://user-images.githubusercontent.com/54631569/111799411-00644800-88f1-11eb-8dc5-931bab87e96a.png)
 
-- If at any time you feel to pause the game you can do that by hitting ESCAPE button and hit it again to resume.
+- If at any time you feel to pause the game you can do that by hitting the ESCAPE button and hit it again to resume.
 
-- For the **FREE MODE** you can click on the name plate of the shop you want to enter, and hit on buy button below it to purchase it.
+- For the **FREE MODE** you can click on the nameplate of the shop you want to enter, and hit on the buy button below it to purchase it.
 
-- For the **GUIDED MODE** you can click the 'I' key for checking your INVENTORY, 'Q' key for checking the OBJECTIVE and 'E' to buy an item.
+- For the **GUIDED MODE** you can click the 'I' key for checking your INVENTORY, 'Q' key for checking the OBJECTIVE, and 'E' to buy an item.
 
 
  ## Programming Languages
- We have you used C# for writing the scripts and Unity as our editor. Since game development was new to us so we reffered to a number of [youtube tutorials](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) and blogs on game development. The assets we used in our game are freely available on the unity assets store.
+ We have used C# for writing the scripts and Unity as our editor. Since game development was new to us so we referred to a number of [youtube tutorials](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) and blogs on game development. The assets we used in our game are freely available on the unity assets store.
  
  
  ## How to use it?
  Our game is not published yet, but that doesn't mean you can't play it.
  
- Follow the steps bellow to know how you can access this game.
+ Follow the steps below to know how you can access this game.
  
  1. Fork this repository.
  2. Pull the code to your local desktop
@@ -110,20 +110,20 @@ It has three options:
  6. Once the `1 Menu Scene` loads successfully hit the play button to start the game.
  7. After following the above steps you will land on the **start** of the game which is our **Main Menu**.
  
- ## Chalenges we ran into
- - It took alot of time to learn and understand C# scripts. 
+ ## Challenges we ran into
+ - It took a lot of time to learn and understand C# scripts. 
  - Getting comfortable with Unity was the toughest part and the most enjoyable part at the same time.
  - Game Code is super messy and cleaning it was breaking something or the other.
  
  ## Accomplishments we are proud of
- - Getting acquainted with Game Development Enviornment in just three weeks was awesome.
+ - Getting acquainted with Game Development Environment in just three weeks was awesome.
  - We got to learn a new programming language
  - Working with UNITY was super fun
- - We faced alot issues still we managed to complete our project
+ - We faced a lot of issues still managed to complete our project
  
  ## What we learned?
- - We learned how to programm in C#
- - We now know how the UNITY Editor works (maybe to some extent, unity is a never  ending story)
+ - We learned how to program in C#
+ - We now know how the UNITY Editor works (maybe to some extent, unity is a never-ending story)
  - How to work and collaborate in teams
  
  ## Have feature requests or want to contribute?
