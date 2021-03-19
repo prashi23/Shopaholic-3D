@@ -12,7 +12,35 @@ Ever thought of **going** shopping but virtually? There are a lot of shopping ga
  
  ## What it does?
  
+ You land up in a toon city, surrounded with shops and other residential buildings and your aim is to buy all the stuff mentioned in your objective's list before youo run out of time.
  
+**YOU:**
+
+![unknown (2)](https://user-images.githubusercontent.com/54631569/111835701-47673300-891b-11eb-86ee-d316520a04f0.png)
+
+ **YOUR OBJECTIVE:**
+ 
+ ![unknown (3)](https://user-images.githubusercontent.com/54631569/111835795-6b2a7900-891b-11eb-869f-0043bb6273bb.png)
+
+**THE INVENTORY:**
+
+![unknown (4)](https://user-images.githubusercontent.com/54631569/111835863-87c6b100-891b-11eb-98dc-02d73189f5e7.png)
+
+**THE PAUSE MENU:** (you can press the `esc` button to trigger pause menu.)
+
+![unknown (5)](https://user-images.githubusercontent.com/54631569/111836153-df651c80-891b-11eb-9ffc-db86269e6d75.png)
+
+**LOOSE SCREEN:** (if you are not able to make things work in time)
+
+![unknown (7)](https://user-images.githubusercontent.com/54631569/111836395-35d25b00-891c-11eb-857c-d3ebd995ff52.png)
+
+
+**WIN SCREEN:** (if you are able to make things work in time)
+
+![unknown (6)](https://user-images.githubusercontent.com/54631569/111836294-0c193400-891c-11eb-91a5-f88f7a99a030.png)
+
+
+
  ## How it works?
  
  When you start the game, you will land on the:
@@ -108,10 +136,10 @@ It has three options:
  - How to work and collaborate in teams
  
  ## Have feature requests or want to contribute?
- Refer to [Contribution.md]()
+ Refer to [CONTRIBUTION.md](https://github.com/saksham1991999/Shopaholic-3D/blob/main/CONTRIBUTION.md)
  
  ## Report a Bug 🐞
- Refer to [Contribution.md]()
+ Refer to [CONTRIBUTION.md](https://github.com/saksham1991999/Shopaholic-3D/blob/main/CONTRIBUTION.md)
  
  ## About Us
 
