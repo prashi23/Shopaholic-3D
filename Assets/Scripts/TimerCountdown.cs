@@ -2,6 +2,7 @@ using System.Collections;
 // using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerCountdown : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class TimerCountdown : MonoBehaviour
 
         if(secondsLeft == 0)
         {
-            Application.LoadLevel("Game Over");
+            SceneManager.LoadScene("Game Over");
         }
     }
     
