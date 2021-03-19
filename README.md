@@ -134,6 +134,10 @@ It has three options:
  - We learned how to program in C#
  - We now know how the UNITY Editor works (maybe to some extent, unity is a never-ending story)
  - How to work and collaborate in teams
+
+ ## What's next?
+ - Will add cheatcodes to revive a player before the timer goes off or before iy runs out of money.
+ - Will add a cart feature in FREE MODE
  
  ## Have feature requests or want to contribute?
  Refer to [CONTRIBUTION.md](https://github.com/saksham1991999/Shopaholic-3D/blob/main/CONTRIBUTION.md)
