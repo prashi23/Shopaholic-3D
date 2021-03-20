@@ -1,443 +1,73 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- META TAGS -->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
     <meta charset="utf-8">
-    <meta name="author" content="AtypicalThemes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
-
-    <!-- WEBSITE TITLE & DESCRIPTION -->
-    <title>Shopaholic 3D - Virtual Shopping Experience</title>
-    <meta name="description" content="Virtual Shopping Experience">
-    <meta name="keywords" content="game, gaming, videogame, developer, steam, studio, team">
-
-    <!-- OG meta tags that improve the look of your post on social media -->
-    <meta property="og:site_name" content=""><!--website name-->
-    <meta property="og:site" content=""> <!--website link-->
-    <meta property="og:title" content=""> <!--Post title-->
-    <meta property="og:description" content=""> <!--Post description-->
-    <meta property="og:image" content=""><!-- Image link (jpg only)-->
-    <meta property="og:url" content=""> <!--where do you want your post to link to-->
-    <meta property="og:type" content="article">
-
-    <!-- Favicon and Apple Icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images\favicon\apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images\favicon\apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images\favicon\apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images\favicon\apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images\favicon\apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images\favicon\apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images\favicon\apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images\favicon\apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images\favicon\apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images\favicon\android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images\favicon\favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images\favicon\favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images\favicon\favicon-16x16.png">
-
-    <!-- STYLES -->
-    <!-- Bootstrap -->
-    <link href="css\bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome -->
-    <link href="css\font-awesome.min.css" rel="stylesheet">
-    <!-- Animations -->
-    <link href="css\animations.css" rel="stylesheet">
-    <!-- Lightbox -->
-    <link href="css\lightbox.min.css" rel="stylesheet">
-    <!-- Video Lightbox -->
-    <link href="css\modal-video.min.css" rel="stylesheet">
-    <!-- Main Stylesheet -->
-    <link href="css\style.css" rel="stylesheet">
-  
-</head>
-<body>
-    <!-- Loading Screen -->
-    <div id="loader-wrapper">
-        <h1 class="loader-logo"><span class="colored">S</span>HOPAHOLIC 3D</h1>
-        <div id="progress"></div>
-        <h3 class="loader-text">LOADING</h3>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Shopaholic 3D</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-mobile-warning">
+        WebGL builds are not supported on mobile devices.
+      </div>
     </div>
-    
-    <!-- //// HEADER //// -->
-    <header id="main-header">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <div class="container">
-                <!-- Site Logo -->
-                <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images\logo.png" alt="site logo"></a>
-                <!-- Dropdown Button -->
-                <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                </button>
-                <!-- Navigation Links -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#games">Game</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
-                        </li>
-<!--                        <li class="nav-item">-->
-<!--                            <a class="nav-link" href="#careers">Careers</a>-->
-<!--                        </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header><!-- Header End -->
-    
-    <!-- /// HERO SECTION /// -->
-    <div id="hero-section" class="small-margin">
-        <div id="particles-web"></div>
-        <div class="row hero-unit">
-            <div class="container">
-                <div class="hero-caption"><!-- Main Tagline -->
-                    <h1>Shopaholic 3D - <span class="colored">Virtual Shopping Experience</span></h1>
-                </div>
-            </div>
-        </div>
-    </div><!-- Hero Section End -->
-    
-    <!-- /// Main Container /// -->
-    <div class="container">
-        <!-- /// ABOUT SECTION /// -->
-        <div id="about" class="large-margin">
-            <a href="about"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="small-margin">Hello there 👋! We are proud members of Pod 2.1.3 also know as Goofy-Goofy 😃. We are tech-explorers 🚀, highly motivated to learn new things and build cool and random stuff 💥.</p>
-                    <p class="small-margin"><a href="https://youtu.be/aMW8tXUXEwo">Demo</a> | <a href="https://github.com/saksham1991999/Shopaholic-3D">GitHub</a></p>
-                    <p class="small-margin"></p>
-<!--                    <img id="awards" src="images\awards.png" class="img-fluid" alt="awads">-->
-                </div>
-                <div class="col-md-6">
-                    <img id="support-image" src="images\logo2.png" data-src="images/dlogo2.png" class="img-fluid b-lazy" alt="digital collage">
-                </div>
-            </div>
-        </div>
-        <!-- /// GAMES SECTION /// -->
-        <div id="games" class="large-margin">
-            <a href="games"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-md-11 small-margin">
-                   <p>Ever thought of going shopping but virtually? There are a lot of shopping games out there but all are mostly in 2D. So, I along with my team came up with a cool idea of creating a 3D shopping complex. You can control your GameObject and make it go anywhere, any shop, any building, and can moonwalk on roads blindly without the fear of getting hit xD (P.S: only in the game).</p>
-                </div>
-                <div class="col-md-12">
-                    <ul class="game-tags">
-                        <li>Sort By Game Mode :</li>
-                        <li><a href="#" data-filter=".free">Free Mode</a></li>
-                        <li><a href="#" data-filter=".game">Game Mode</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="games-portfolio ">
-                <!-- Game Card Video -->
-                <div class="row game-card free">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=aMW8tXUXEwo&feature=youtu.be&ab_channel=SakshiGupta" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="images\game\7.png" data-src="images/game/7.png" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">Free Mode</h2>
-                        <p class="tags"><span class="subtle">PC</span> </p>
-                        <p class="game-description">In the free mode, you can freely move around the city and get into the shop of your choice and buy any random stuff (until the timer and your dollar bills last 🤣).<span class="expand colored strong" data-toggle="modal" data-target="#game1"></span></p>
-                    </div>
-                </div><!-- Game Card End -->
+    <script>
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/New folder (4).loader.js";
+      var config = {
+        dataUrl: buildUrl + "/New folder (4).data.gz",
+        frameworkUrl: buildUrl + "/New folder (4).framework.js.gz",
+        codeUrl: buildUrl + "/New folder (4).wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "City Map ",
+        productVersion: "0.1",
+      };
 
-                <div class="row game-card free">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=aMW8tXUXEwo&feature=youtu.be&ab_channel=SakshiGupta" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="images\game\8.png" data-src="images/game/8.png" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">Guided Mode</h2>
-                        <p class="tags"><span class="subtle">PC</span> </p>
-                        <p class="game-description">In the guided mode there is a particular mission that needs to be completed. So you are given a list of items that are requested for purchase, limited cash, and a time frame in which you have to complete the task.<span class="expand colored strong" data-toggle="modal" data-target="#game1"></span></p>
-                    </div>
-                </div><!-- Game Card End -->
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var mobileWarning = document.querySelector("#unity-mobile-warning");
 
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+        mobileWarning.style.display = "block";
+        setTimeout(() => {
+          mobileWarning.style.display = "none";
+        }, 5000);
+      } else {
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+      loadingBar.style.display = "block";
 
-            </div>
-        </div>
-        <!-- /// TEAM SECTION /// -->
-        <div id="team" class="large-margin">
-            <a href="team"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11 tiny-margin">
-                    <p>Our passion unites us.</p>
-                </div>
-                <div id="full-row" class="row text-center">
-                    <div class="col-md-4 team-card">
-                        <figure>
-                            <img src="images\sakshi.jpg" data-src="images/sakshi.jpg" class="img-fluid b-lazy" alt="teammember" style="max-height: 200px;">
-                            <figcaption class="team-caption">
-<!--                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>-->
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Sakshi Gupta</p>
-                        <p class="subtle">Explorer</p>
-                    </div>
-                    <div class="col-md-4 team-card">
-                        <figure>
-                            <img src="images\samuel.jpg" data-src="images/samuel.jpg" class="img-fluid b-lazy" alt="teammember" style="max-height: 200px;">
-                            <figcaption class="team-caption">
-<!--                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>-->
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Samuel Alexander</p>
-                        <p class="subtle">Explorer</p>
-                    </div>
-                    <div class="col-md-4 team-card">
-                        <figure>
-                            <img src="images\saksham.jpg" data-src="images/saksham.jpg" class="img-fluid b-lazy" alt="teammember" style="max-height: 200px;">
-                            <figcaption class="team-caption">
-<!--                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>-->
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Saksham Mittal</p>
-                        <p class="subtle">Explorer</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row tiny-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">OUR GAME</h2>
-                    <p>Free Mode: In the free mode, you can freely move around the city and get into the shop of your choice and buy any random stuff (until the timer and your dollar bills last 🤣).</p>
-                    <p>Guided Mode: In the guided mode there is a particular mission that needs to be completed. So you are given a list of items that are requested for purchase, limited cash, and a time frame in which you have to complete the task.</p>
-                </div>
-            </div>
-            <div class="grid-gallery">
-                <div class="row">
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\1.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\1.png" data-src="images/game/1.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\3.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\3.png" data-src="images/game/3.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\5.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\5.png" data-src="images/game/5.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\6.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\6.png" data-src="images/game/6.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\7.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\7.png" data-src="images/game/7.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\8.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\8.png" data-src="images/game/8.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\9.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\9.png" data-src="images/game/9.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\10.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\10.png" data-src="images/game/10.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images\game\11.png" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images\game\11.png" data-src="images/game/11.png" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="contact" class="large-margin">
-            <a href="contact"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">GET IN <span class="colored">TOUCH</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="">
-                <div class="row small-margin">
-                    <div class="col-md-11">
-                        <p>We would love to hear from you. Have feature requests or want to contribute? Refer to <a href="https://github.com/saksham1991999/Shopaholic-3D/blob/main/CONTRIBUTION.md">Contribution.md</a></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">LEAVE US A MESSAGE</h2>
-                        <form id="contactForm" data-toggle="validator">
-                            <div class="form-group">
-                                <!-- Name Field -->
-                                <input type="text" id="name" placeholder="Name*" required="" size="35" data-error="Name is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email Field -->
-                                <input type="email" id="email" placeholder="Email*" required="" size="35" data-error="Email is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Message Field -->
-                                <textarea id="message" name="message" placeholder="Message*" required="" data-error="Message cannot be empty"></textarea>
-                                <p class="subtle">* required field</p>
-                                <div class="help-block with-errors"></div>
-                                <!-- Submit Button -->
-                                <button type="submit" class="button">SEND MESSAGE</button>
-                                <!-- Success Message -->
-                                <div id="msgSubmit" class="text-center hidden"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">OUR DETAILS</h2>
-                        <div id="contact-info">
-                            <ul>
-<!--                                <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:+1(803)635585">+1 (803) 635 585</a></span></p></li>-->
-                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored"><a href="mailto:office@example.com">saksham1991999@gmail.com</a></span></p></li>
-                                <li><i class="fa fa-globe"></i><p>Website: <span class="colored"><a href="www.atypicalthemes.com" target="_blank">www.shopaholic3d.tech</a></span></p></li>
-<!--                                <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">1168 12th Street East Oconomowoc, WI 53066</span></p></li>-->
-                            </ul>
-                        </div>
-                        <!-- Google Map -->
-<!--                        <div id="map-canvas"></div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- Main Container End -->
-    <!-- /// FOOTER /// -->
-    <footer id="main-footer">
-        <div id="footer"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p id="copyright">&copy; Shopaholic 3D <span id="year"> </span></p><!-- Copyright Text -->
-<!--                        <ul class="social-links"> &lt;!&ndash; Social Media Icons &ndash;&gt;-->
-<!--                            <li><a href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-google-plus fa-lg icon-social"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-linkedin fa-lg icon-social"></i></a>-->
-<!--                            <li><a href="#"><i class="fa fa-pinterest fa-lg icon-social"></i></a>-->
-<!--                            <li><a href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a>-->
-<!--                        </li></ul>-->
-                    </div>
-                </div>
-            </div><!-- Container End -->
-        </div>
-    </footer><!-- Footer End -->
-    
-    <!-- //// SCRIPTS //// -->
-    <script src="js\jquery-3.2.1.min.js"></script>
-    <script src="js\popper.min.js"></script>
-    <script src="js\bootstrap.min.js"></script>
-    <script src="js\blazy.min.js"></script>
-    <script src="js\particles.js"></script>
-    <script src="js\isotope.pkgd.min.js"></script>
-    <script src="js\lightbox.min.js"></script>
-    <script src="js\jquery-modal-video.min.js"></script>
-    <script src="js\validator.min.js"></script>
-    <script src="js\strider.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0K1n4Y5N2SwIeHETzvqP5ycEMdr-QLAA"></script>
-</body>
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
 </html>
